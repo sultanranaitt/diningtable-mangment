@@ -1,0 +1,141 @@
+@font-face {
+  font-family: DMSans;
+  src: url(./assets/fonts/DM_Sans/static/DMSans-Regular.ttf);
+}
+
+* {
+  font-family: DMSans;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-section {
+  background-image: url('./assets/Login.png');
+  background-size: 100% 100%;
+}
+
+.width-logo {
+  width: 50%;
+}
+
+.login-btn {
+  background-color: #D97706;
+  width: 100%;
+}
+
+.login-box-shadow {
+  box-shadow: 12px 24px 52px 0 rgba(0, 0, 0, 0.12);
+}
+
+.table-section {
+  background-image: url('./assets/Rug.png');
+  background-size: 100% 100%;
+}
+
+.table-btn-ui button {
+  background-color: #1A56DB;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.table-header-btn-ui button {
+  background-color: #1A56DB;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.table-header-btn-ui button:nth-child(1) {
+  background-color: #fff !important;
+  font-size: 16px !important;
+}
+
+.table-modal-ui input,
+.table-modal-ui select {
+  background-color: #F9FAFB;
+  font-size: 13px;
+}
+
+.modal-btn {
+  background-color: #1A56DB;
+  border-radius: 10px;
+}
+
+.table-modal-ui span {
+  color: #111928;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.sidemenu-header {
+  border-bottom: solid 1px #F7B13C;
+}
+
+.sidemenu-dashboard-box {
+  border-bottom: solid 1px #E5E7EB;
+  padding: 30px 0px 30px
+}
+
+.active-box {
+  background-color: #F59E0B;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.active-box-span {
+  background-color: #F7B13C;
+}
+
+.span-header-title {
+  color: #111827;
+}
+
+.burfer-sidemenu {
+  width: 30px;
+  position: absolute;
+  left: 15px;
+  cursor: pointer;
+}
+.logo-dashboard{
+  width: 20%;
+}
+.btn-yello-clr{
+    background-color: #D97706;
+}
